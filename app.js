@@ -20,10 +20,18 @@ var indexRoutes   = require("./routes/index"),
  chem11Routes    = require("./routes/11chem"),
  math11Routes    = require("./routes/11math"),
  phy11Routes    = require("./routes/11phy"),
+ bst11Routes    = require("./routes/11bst"),
+ eco11Routes    = require("./routes/11eco"),
+ eng11Routes    = require("./routes/11eng"),
+
+
 
  chem12Routes    = require("./routes/12chem"),
  math12Routes    = require("./routes/12math"),
  phy12Routes    = require("./routes/12phy"),
+ bst12Routes    = require("./routes/12bst"),
+ eco12Routes    = require("./routes/12eco"),
+ eng12Routes    = require("./routes/12eng"),
  
  notesRoutes      = require("./routes/notes");
 
@@ -75,10 +83,16 @@ app.use(sci10Routes );
 app.use(chem11Routes );
 app.use(math11Routes );
 app.use(phy11Routes );
+app.use(bst11Routes );
+app.use(eco11Routes );
+app.use(eng11Routes );
 
 app.use(chem12Routes );
 app.use(math12Routes );
 app.use(phy12Routes );
+app.use(bst12Routes );
+app.use(eco12Routes );
+app.use(eng12Routes );
 
 app.use(notesRoutes);
 
